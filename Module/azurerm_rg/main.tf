@@ -3,3 +3,4 @@ resource "azurerm_resource_group" "dev_rg" {
   name     = each.value.rg_name
   location = each.value.location
 }
+
